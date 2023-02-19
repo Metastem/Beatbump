@@ -12,8 +12,8 @@
 			"precompress": false
 		},
 		"vercel": {
-			"edge": false,
-			"split": false
+			"edge": true,
+			"split": true
 		}
 	},
 	"port": 3000
