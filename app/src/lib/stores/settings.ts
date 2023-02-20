@@ -74,7 +74,7 @@ let list: UserSettings = {
 		Stream: "HTTP",
 	},
 	appinfo: { Donate: ENV_DONATION_URL, GitHub: "https://github.com/snuffyDev/Beatbump" },
-	network: { "HLS Stream Proxy": "https://yt-hls-rewriter.onrender.com/" },
+	network: { "HLS Stream Proxy": "https://proxy.bb.metastem.su/" },
 	search: { Preserve: "Category" },
 };
 
@@ -119,7 +119,7 @@ function _settings() {
 		localStorage.setItem("settings", JSON.stringify(list));
 	} else {
 		if (!stored.network["HLS Stream Proxy"]) {
-			stored.network["HLS Stream Proxy"] = "https://yt-hls-rewriter.onrender.com/";
+			stored.network["HLS Stream Proxy"] = "https://proxy.bb.metastem.su/";
 		}
 		list = stored;
 	}
