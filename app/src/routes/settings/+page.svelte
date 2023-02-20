@@ -122,14 +122,14 @@
 							}
 						}}
 						pattern="http://.*"
-						placeholder="https://yt-hls-rewriter.onrender.com/"
+						placeholder="https://proxy.bb.metastem.su/"
 						value={$settings["network"]["HLS Stream Proxy"]}
 					/>
 				</div>
 				<span
 					class="link"
 					on:click={() => {
-						$settings["network"]["HLS Stream Proxy"] = "https://yt-hls-rewriter.onrender.com/";
+						$settings["network"]["HLS Stream Proxy"] = "https://proxy.bb.metastem.su/";
 					}}>Reset to default</span
 				>
 			</div>
