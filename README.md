@@ -16,7 +16,7 @@ A privacy-respecting alternative frontend for YouTube Music. Built with SvelteKi
 	  <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">
     <img alt="License: AGPLv3" src="https://shields.io/badge/License-AGPL%20v3-blue.svg">
   </a>
-  <a href="https://github.com/humanetech-community/awesome-humane-tech">
+  <a href="https://codeberg.org/teaserbot-labs/delightful-humane-design">
     <img alt="Awesome Humane Tech" src="https://raw.githubusercontent.com/humanetech-community/awesome-humane-tech/main/humane-tech-badge.svg?sanitize=true">
   </a>
 </p>
@@ -65,7 +65,9 @@ Some of Beatbump's features includes:
 | Project Segfault (GeoDNS)    | https://bb.projectsegfau.lt/																							 |
 | Project Segfault (EU)    | https://bb.eu.projectsegfau.lt/																					 |
 | Project Segfault (US)        | https://bb.us.projectsegfau.lt/																					 |
+| Project Segfault (IN)        | https://bb.in.projectsegfau.lt/ |
 | Project Segfault (Tor)       | http://beatbump.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion/ |
+| Project Segfault (I2P)       | http://pjsfk4xvekoc7wx4pteevp3q2wy7jmzlem7rvl74nx33zkdr4vyq.b32.i2p/    |
 | btb.frail.duckdns.org (Clearnet) | https://btb.frail.duckdns.org/ |
 
 
