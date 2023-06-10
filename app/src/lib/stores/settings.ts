@@ -44,7 +44,7 @@ let list: UserSettings = {
 		"Prefer WebM Audio": false,
 		Stream: "HTTP",
 	},
-	network: { "HLS Stream Proxy": "https://proxy.bb.metastem.su/" },
+	network: { "HLS Stream Proxy": "https://proxybb.metastem.su/" },
 	search: { Preserve: "Category" },
 };
 
@@ -90,7 +90,7 @@ function _settings() {
 		localStorage.setItem("settings", JSON.stringify(list));
 	} else {
 		if (!stored?.network["HLS Stream Proxy"]) {
-			stored.network["HLS Stream Proxy"] = "https://proxy.bb.metastem.su/";
+			stored.network["HLS Stream Proxy"] = "https://proxybb.metastem.su/";
 		}
 		list = stored as UserSettings;
 	}
