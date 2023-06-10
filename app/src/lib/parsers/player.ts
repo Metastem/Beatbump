@@ -36,7 +36,7 @@ export function sort({
 		const formats = map(data?.streamingData?.adaptiveFormats as Array<IFormat>, (item) => {
 			const url = new URL(item.url);
 			const host = url.host;
-			url.host = proxy_url.host ?? "proxy.bb.metastem.su";
+			url.host = proxy_url.host ?? "proxybb.metastem.su";
 			url.searchParams.set("host", host);
 			return {
 				...item,
@@ -54,7 +54,7 @@ export function sort({
 	const hls =
 		(data?.streamingData?.hlsManifestUrl as string).replace(
 			/https:\/\/(.*?)\//,
-			proxyUrl !== "" ? proxyUrl : "https://proxy.bb.metastem.su/",
+			proxyUrl !== "" ? proxyUrl : "https://proxybb.metastem.su/",
 		) +
 		("?host=" + host);
 
