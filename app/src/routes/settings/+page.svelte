@@ -122,7 +122,7 @@
 							}
 						}}
 						pattern="http://.*"
-						placeholder="https://proxy.bb.metastem.su/"
+						placeholder="https://proxybb.metastem.su/"
 						value={$settings["network"]["HLS Stream Proxy"]}
 					/>
 				</div>
