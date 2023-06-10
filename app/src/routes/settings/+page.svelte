@@ -129,7 +129,7 @@
 				<span
 					class="link"
 					on:click={() => {
-						$settings["network"]["HLS Stream Proxy"] = "https://proxy.bb.metastem.su/";
+						$settings["network"]["HLS Stream Proxy"] = "https://proxybb.metastem.su/";
 					}}>Reset to default</span
 				>
 			</div>
